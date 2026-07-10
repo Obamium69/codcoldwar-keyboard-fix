@@ -7,7 +7,7 @@ tl;dr there are missing function calls from Wine, notably NotifyIME and ImeSetAc
 ## How to run it
 Install mingw64-gcc and its headers:
 ```bash
-sudo pacman mingw-w64-gcc mingw-w64-headers
+sudo pacman -S mingw-w64-gcc mingw-w64-headers
 ```
 
 Clone the repo. Then, in the folder run:
